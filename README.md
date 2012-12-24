@@ -20,13 +20,14 @@
 * create migrations for updated models
 * apply migrations
 
-    $ git clone cloneurl
-    $ mkvirtualenv --no-site-packages myproject 
-    $ pip install requirements.txt
-    $ python manage.py syncdb
-    $ python manage.py schemamigration --initial mybrandnewapp
-    $ python manage.py schemamigration --auto basicapp
-    $ python manage.py migrate
+
+        $ git clone git@github.com:dtuominen/bones.git
+        $ mkvirtualenv --no-site-packages myproject
+        $ pip install requirements.txt
+        $ python manage.py syncdb
+        $ python manage.py schemamigration --initial mybrandnewapp
+        $ python manage.py schemamigration --auto basicapp
+        $ python manage.py migrate
 
 
 ### General
