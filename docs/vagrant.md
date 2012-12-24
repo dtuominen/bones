@@ -8,15 +8,15 @@ and automating the whole process
 
 * install vagrant and its dependences
 
-    gem install vagrant
+        gem install vagrant
 
 * initialise a new box
 
 
-    # The included link is ubuntu 12.04 box with chef and puppet included
-    vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
-    vagrant init lucid32
-    vagrant up
+        # The included link is ubuntu 12.04 box with chef and puppet included
+        vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+        vagrant init lucid32
+        vagrant up
 
 
 
@@ -38,17 +38,17 @@ initialization commands provided first
 ssh into the box as the user `vagrant` who i believe has su rights w/o
 needing a password
     
-    vagrant ssh
+        vagrant ssh
 
 ## Tearing it down
 
 virtualbox is handy for dealing with removal/reassurance, but to shut er down
 
-    vagrant pause   # puts box into suspend state
-    # or
-    vagrant halt    # shuts down the box asap
-    # finish that shit
-    vagrant destroy
+        vagrant pause   # puts box into suspend state
+        # or
+        vagrant halt    # shuts down the box asap
+        # finish that shit
+        vagrant destroy
 
 
 now you are back to where you began, i will work on scripts for automating 
