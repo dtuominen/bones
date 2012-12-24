@@ -13,7 +13,6 @@ and automating the whole process
 * initialise a new box
 
 
-        # The included link is ubuntu 12.04 box with chef and puppet included
         vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
         vagrant init lucid32
         vagrant up
