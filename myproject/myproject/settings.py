@@ -109,6 +109,11 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    # My apps
+    # 3rd party apps
+    'south',
+
+    # Built-in apps
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
