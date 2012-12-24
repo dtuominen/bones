@@ -62,6 +62,10 @@ TBD... Going to try to use fabric instead of chef.. chef is super bitchy
 and using chef-solo(the free version) it is somewhat difficult to execute
 remotely.
 
-possibly the chef solo scripts could be created and run locally, then have all chef commands and recipes sshd from the host into the vagrant box?
+i need to learn more about vagrant provisioning, which is for this exact purpose
 
-sounds like lots of work
+basically vagrant needs to provision chef recipes which exist for setting up and configuring 
+packages/anything on the box.
+
+Can't invest too much time in this at the moment, ideally i can automate every single package
+or setup task possible, there's a decent resource for chef recipes.
