@@ -53,4 +53,12 @@ now you are back to where you began, i will work on scripts for automating
 the actual system configuration very soon. at this point in time,
 the system packages and everything will need to be configured.
 
+# Chef setup
 
+TBD... Going to try to use fabric instead of chef.. chef is super bitchy
+and using chef-solo(the free version) it is somewhat difficult to execute
+remotely.
+
+possibly the chef solo scripts could be created and run locally, then have all chef commands and recipes sshd from the host into the vagrant box?
+
+sounds like lots of work
