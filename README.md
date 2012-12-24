@@ -53,3 +53,16 @@ included in fabfile.py
 * django-extensions
 * django-toolbar
 * fabric
+
+### Full dependency list
+
+    Django==1.4.3
+    Fabric==1.5.1
+    South==0.7.6
+    argparse==1.2.1
+    distribute==0.6.28
+    django-debug-toolbar==0.9.4
+    django-extensions==1.0.2
+    paramiko==1.9.0
+    pycrypto==2.6
+    wsgiref==0.1.2
