@@ -112,6 +112,7 @@ INSTALLED_APPS = (
     # My apps
     # 3rd party apps
     'south',
+    'django_extensions',
 
     # Built-in apps
     'django.contrib.auth',
