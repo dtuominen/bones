@@ -23,7 +23,7 @@
 
         $ git clone git@github.com:dtuominen/bones.git
         $ mkvirtualenv --no-site-packages myproject
-        $ pip install requirements.txt
+        $ pip install -r requirements.txt
         $ python manage.py syncdb
         $ python manage.py schemamigration --initial mybrandnewapp
         $ python manage.py schemamigration --auto basicapp
