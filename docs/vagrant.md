@@ -15,6 +15,8 @@ and automating the whole process
 
         vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
         vagrant init lucid32
+        # Before executing vagrant up, you should modify the Vagrantfile
+        # to look like the one provided
         vagrant up
 
 
