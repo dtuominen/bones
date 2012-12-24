@@ -15,10 +15,7 @@
 * create a virtualenvironment
 * install the requirements
 * create the initial database tables
-* apply migrations
-* create migrations for new apps
-* create migrations for updated models
-* apply migrations
+* apply/create migrations
 
 
         $ git clone git@github.com:dtuominen/bones.git
